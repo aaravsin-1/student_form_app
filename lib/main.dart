@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Form Submission App',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.red,
         fontFamily: 'Roboto',
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
@@ -47,16 +47,16 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Icon(Icons.assignment_turned_in_outlined, size: 100, color: Colors.indigo),
+            Icon(Icons.assignment_turned_in_outlined, size: 100, color: Colors.red),
             SizedBox(height: 24),
             Text(
               'Welcome to Form App',
-              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.indigo.shade800),
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.red.shade800),
             ),
             SizedBox(height: 12),
             Text(
               'Submit your details and view all submissions easily.',
-              style: TextStyle(fontSize: 16, color: Colors.indigo.shade400),
+              style: TextStyle(fontSize: 16, color: Colors.red.shade400),
               textAlign: TextAlign.center,
             ),
             SizedBox(height: 48),
@@ -68,7 +68,7 @@ class HomePage extends StatelessWidget {
               icon: Icon(Icons.edit_document, size: 20),
               label: Text('Fill Form'),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.indigo,
+                backgroundColor: Colors.red,
                 foregroundColor: Colors.white,
                 padding: EdgeInsets.symmetric(horizontal: 36, vertical: 14),
                 textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
@@ -84,8 +84,8 @@ class HomePage extends StatelessWidget {
               icon: Icon(Icons.list_rounded, size: 20),
               label: Text('View Submissions'),
               style: OutlinedButton.styleFrom(
-                foregroundColor: Colors.indigo,
-                side: BorderSide(color: Colors.indigo),
+                foregroundColor: Colors.red,
+                side: BorderSide(color: Colors.red),
                 padding: EdgeInsets.symmetric(horizontal: 36, vertical: 14),
                 textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
